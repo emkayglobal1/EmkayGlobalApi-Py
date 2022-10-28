@@ -1,4 +1,4 @@
-from api_helper import NorenApiPy
+from api_helper import EmkayGlobalApi
 import logging
 
 #enable dbug to see request and responses
