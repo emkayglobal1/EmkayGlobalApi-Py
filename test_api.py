@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 #start of our program
-api = NorenApiPy()
+api = EmkayGlobalApi()
 
 #credentials
 user    = <uid>
