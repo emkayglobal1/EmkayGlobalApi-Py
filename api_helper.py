@@ -40,7 +40,9 @@ def get_time(time_string):
 class EmkayGlobalApi(NorenApi):
     def __init__(self):
         #NorenApi.__init__(self, host='http://emkayblitz.emkayglobal.com/NorenWClient/', websocket='ws://emkayblitz.emkayglobal.com:5551/NorenWS/', eodhost='http://emkayblitz.emkayglobal.com/chartApi/getdata/')
-        NorenApi.__init__(self, host='https://emkayblitz.emkayglobal.com//NorenWClientTP/', websocket='ws://emkayblitz.emkayglobal.com:9657/NorenWS/', eodhost='http://emkayblitz.emkayglobal.com/chartApi/getdata/')
+        #NorenApi.__init__(self, host='https://emkayblitz.emkayglobal.com//NorenWClientTP/', websocket='ws://emkayblitz.emkayglobal.com:9657/NorenWS/', eodhost='http://emkayblitz.emkayglobal.com/chartApi/getdata/')
+        NorenApi.__init__(self, host='https://emktest.emkayglobal.com//NorenWClientTP/', websocket='ws://emktest.emkayglobal.com:5552/NorenWS/', eodhost='http://emktest.emkayglobal.com/chartApi/getdata/')
+        
         global api
         api = self
     def place_basket(self, orders):
