@@ -1,6 +1,6 @@
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from api_helper import NorenApiPy
+from api_helper import EmkayGlobalApi
 import signal
 import datetime
 import logging
